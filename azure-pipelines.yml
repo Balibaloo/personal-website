@@ -13,5 +13,5 @@ steps:
 - script: echo Hello, world! Pipeline Executed!
   displayName: 'Run a one-line script'
 
-- script: ls
+- script: zip -r $(BuiltZiptName).zip ./*
   displayName: 'Run a multi-line script'
