@@ -16,5 +16,5 @@ steps:
 - script: zip -r $(BuiltZiptName).zip ./*
   displayName: 'Zip all files'
 
-- script: less $(BuiltZiptName).zip
+- script: unzip -l $(BuiltZiptName).zip
   displayName: 'show all files'
