@@ -14,5 +14,7 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: zip -r $(BuiltZiptName).zip ./*
-    ls
-  displayName: 'Run a multi-line script'
+  displayName: 'Zip all files'
+
+- script: less $(BuiltZiptName).zip
+  displayName: 'show all files'
