@@ -218,8 +218,8 @@
 }
 
 .size2 {
-  width: 90px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 .size3 {
@@ -320,7 +320,7 @@
 /*---------------------------------------------*/
 .how-social {
   color: #fff;
-  font-size: 22px;
+  font-size: 36px;
   background-color: #ccc;
   border-radius: 50%;
 }
